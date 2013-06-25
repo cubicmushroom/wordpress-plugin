@@ -1,0 +1,30 @@
+{
+    "name": "cubicmushroom/wordpress-plugin",
+    "description": "WordPress helper class to make configuring WordPress plugins easier",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Griffiths",
+            "email": "toby@cubicmushroom.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:CubicMushroom/wordpress-core.git"
+        }
+    ],
+    "require": {
+        "cubicmushroom/wordpress-core" : "master-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit"          : "3.7.x-dev",
+        "symfony/event-dispatcher" : "2.4.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "CubicMushroom" : "src/"
+        }
+    }
+}
