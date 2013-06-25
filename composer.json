@@ -9,12 +9,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:CubicMushroom/wordpress-core.git"
-        }
-    ],
     "require": {
         "cubicmushroom/wordpress-core" : "master-dev"
     },
