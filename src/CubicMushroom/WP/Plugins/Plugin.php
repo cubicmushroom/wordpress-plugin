@@ -12,11 +12,6 @@
  * @link       http://cubicmushroom.co.uk
  **/
 
-namespace CubicMushroom\WP\Plugins;
-
-use \CubicMushroom\WP\Core\Base;
-use \CubicMushroom\WP\Exception\PostTypeRegistrationFailedException;
-
 /**
  * Base Plugin class to be extended by individual plugins
  * 
@@ -27,7 +22,7 @@ use \CubicMushroom\WP\Exception\PostTypeRegistrationFailedException;
  * @license    http://opensource.org/licenses/MIT MIT
  * @link       http://cubicmushroom.co.uk
  **/
-class Plugin extends Base
+class CubicMushroom_WP_Plugins_Plugin extends CubicMushroom_WP_Core_Base
 {
 
     /*************************
