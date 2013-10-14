@@ -43,4 +43,17 @@ class Plugin extends Base
         'admin_init'     => 'hookAdminInit'
     );
 
+
+    /**
+     * Doesn't do much other than reference make $this->pluginFile a link to
+     * $this->coreFile
+     * 
+     * @param string $file The main plugin file
+     */
+    public function __construct($file)
+    {
+        parent::__construct($file);
+
+        $this->pluginFile = $this->coreFile;
+    }
 } // END class FundApplicationPlugin
