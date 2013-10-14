@@ -18,7 +18,7 @@ use \CubicMushroom\WP\Core\Base;
 use \CubicMushroom\WP\Exception\PostTypeRegistrationFailedException;
 
 /**
- * NCF Fund & Application WordPress plugin core class
+ * Base Plugin class to be extended by individual plugins
  * 
  * @category   WordPress_Plugins
  * @package    CubicMushroom_WP
