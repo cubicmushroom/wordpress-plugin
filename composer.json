@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "cubicmushroom/wordpress-core" : "master-dev"
+        "cubicmushroom/wordpress-core" : "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit"          : "3.7.x-dev",
